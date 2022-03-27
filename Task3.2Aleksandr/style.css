@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(/images/headerback.jpg);
+    background-repeat: no-repeat;
+    background-position: 70%;
+    background-color: #FAFAFA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+}
+
+.logo {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+}
+
+.line {
+    display: inline-block;
+    width: 3px;
+    height: 50px;
+    background-image: linear-gradient(to top, #FAFAFA, #443e3e, #FAFAFA);
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.right {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.text {
+    color: rgb(61, 185, 235);
+}
